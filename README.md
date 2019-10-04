@@ -11,3 +11,5 @@ and create a dataframe with all of the hourly data for 1984-2018.  The next step
 mean ozone for each day of the record for each station.  The maximum 8-hour mean is a standard metric for ozone air
 quality calculations.  The third step is to calculate the mean ozone for May through October of each year.
 These are the months of highest ozone in California.  Finally, a simple timeseries plot is constructed 
+
+![alt text](https://github.com/ToddMitchellGH/National-Park-Service-Ozone/blob/master/ozonecamaythroughoctober.png)
