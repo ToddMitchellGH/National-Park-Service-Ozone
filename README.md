@@ -8,8 +8,10 @@ with the values from 98 stations of California Air Resources Board oservations t
 
 The first part of this analysis is to ingest the hourly ozone data, grouped by sets of years in csv-format files,
 and create a dataframe with all of the hourly data for 1984-2018.  The next step is to calculate the maximum 8-hour
-mean ozone for each day of the record for each station.  The maximum 8-hour mean is a standard metric for ozone air
-quality calculations.  The third step is to calculate the mean ozone for May through October of each year.
+mean ozone for each day of the record for each station.  The maximum 8-hour mean (M8HM) is a standard metric for ozone air
+quality calculations.  The third step is to calculate the mean M8HM ozone for May through October of each year.
 These are the months of highest ozone in California.  Finally, a simple timeseries plot is constructed 
 
 ![alt text](https://github.com/ToddMitchellGH/National-Park-Service-Ozone/blob/master/ozonecamaythroughoctober.png)
+
+Joshua Tree and Sequoia / Kings Canyon exhibit generally higher ozone amounts (~70 ppb) than do Pinnnacles and Lassen Volcanic (~50 ppb).  The low, ~40 ppb, ozone amounts for the series in 1986-1989 should be further investigated.
